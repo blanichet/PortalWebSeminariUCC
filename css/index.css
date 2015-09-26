@@ -1,1 +1,255 @@
-body{background:#e8e8e8;font-family:Arial;font-size:16px;}body footer{background:#dd4f24;color:#fff;text-align:center;padding:.8em 0;}body footer h3{font-size:14px;font-weight:normal}body header{background:#0b0b61;color:#fff;overflow:hidden;position:relative;}body header .header-log{float:left;padding:1em;width:100px;}body header .header-log img{border-right:1px solid #fff;heigth:70px;padding:.8em;width:80px}body header .header-titulo{font-size:16px;margin:50px 0 0 200px}body header .header-avatar{position:absolute;right:30px;top:1px;}body header .header-avatar img{border-radius:60%;width:70px}body nav{background:#22bce0;border-left:20px solid #fff;}body nav .menu-ppal{height:40px;line-height:40px;margin:0;padding:0;}body nav .menu-ppal li{display:inline-block;}body nav .menu-ppal li a{color:#fff;display:inline-block;padding:0 1em;text-decoration:none;}body nav .menu-ppal li a:hover{background:rgba(0,0,0,0.1)}
+body{
+  background:#e8e8e8;font-family:Arial;font-size:16px;
+}
+body footer{background:#dd4f24;color:#fff;text-align:center;padding:.8em 0; position: fixed; bottom: 0px; width: 100%;}
+body footer h3{
+  font-size:14px;font-weight:normal
+  }
+  body header{
+    background:#1A2D3F;color:#fff;overflow:hidden;position:fixed;width: 100%;}
+    body header .header-log{float:left;padding:1em;width:100px;}body header .header-log img{border-right:1px solid #fff;heigth:70px;padding:.8em;width:80px}body header .header-titulo{font-size:16px;margin:50px 0 0 200px}body header .header-avatar{position:absolute;right:30px;top:1px;}body header .header-avatar img{border-radius:60%;width:70px}body nav{background:#22bce0;border-left:20px solid #fff;position: fixed;top:132px;width: 100%;}body nav .menu-ppal{height:40px;line-height:40px;margin:0;padding:0;}body nav .menu-ppal li{display:inline-block;}body nav .menu-ppal li a{color:#fff;display:inline-block;padding:0 1em;text-decoration:none;}body nav .menu-ppal li a:hover{background:rgba(0,0,0,0.1)}
+.chat-bubble {
+ background-color: #DEF;
+  border: 2px solid #000;
+  color: #444;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 1.3em;
+  margin: 0 0 0 10px;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 0 5px #FFF;
+  -webkit-box-shadow: 0 0 5px #FFF;
+  box-shadow: 0 0 5px #FFF;
+   margin-top: 20px;
+       float: left;
+       max-width: 370px;
+  
+}
+
+center{
+width: 100%;
+overflow-x:hidden;
+}
+
+
+.span-mensaje-right{
+   position: inherit;
+    float: right;
+  
+    width: 100%;
+    text-align: right;
+}
+
+.span-hora-right{
+   position: inherit;
+    float: right;
+    font-size: large;
+    width: 100%;
+    text-align: right;
+}
+
+
+
+.span-mensaje{
+   position: inherit;
+    float: left;
+  
+    width: 100%;
+    text-align: -webkit-auto;
+}
+
+.span-hora{
+   position: inherit;
+    float: left;
+    font-size: large;
+    width: 100%;
+    text-align: -webkit-auto;
+}
+
+.chat-bubble-right {
+ background-color: #DEF;
+  border: 2px solid #000;
+  color: #444;
+  display: inline-block;
+  font-size: 36px;
+  line-height: 1.3em;
+  margin: 0 0 0 10px;
+  padding: 15px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 0 0 5px #FFF;
+  -webkit-box-shadow: 0 0 5px #FFF;
+  box-shadow: 0 0 5px #FFF;
+   margin-top: 20px;
+       float: right;
+
+  max-width: 370px;
+ 
+  margin-right: 10px !important;
+}
+
+
+
+
+.chat-bubble-arrow-border {
+    border-color: #000 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    left: -22px;
+    position: absolute;
+    width: 0;
+    transform: rotate(90deg);
+    top: 10px;
+}
+.chat-bubble-arrow {
+  border-color: #DEF transparent transparent transparent;
+   
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    left: -20px;
+    position: absolute;
+    width: 0;
+    transform: rotate(90deg);
+    top: 10px;
+}
+
+
+
+.chat-bubble-arrow-border-right {
+    border-color: #000 transparent transparent transparent;
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    right: -22px;
+    position: absolute;
+    width: 0;
+    transform: rotate(270deg);
+    top: 10px;
+}
+.chat-bubble-arrow-right {
+  border-color: #DEF transparent transparent transparent;
+   
+    border-style: solid;
+    border-width: 10px;
+    height: 0;
+    right: -20px;
+    position: absolute;
+    width: 0;
+    transform: rotate(270deg);
+    top: 10px;
+}
+
+
+
+
+body header .header-avatar img{border-radius:60%;width:70px}
+
+
+.avatar{
+      border-right: 0px !important;
+}
+
+.chat-bubble span {
+    color: #000;
+    font-family: Verdana;
+    text-shadow: 1px 4px 1px #ABC;
+
+} 
+
+body header .header-log-right {
+    float: left;
+    padding: 1em;
+    width: 100px;
+}
+
+body header .header-log-right img{border-right:1px solid #fff;heigth:70px;padding:.8em;width:80px}
+
+.
+.chat-bubble-arrow-border1 {
+  border-color: #DEF transparent transparent transparent;
+  border-style: solid;
+  border-height: 10px;
+  bottom: -22px;
+  height: 10;
+  right: 30px;
+  position: absolute;
+  width: 0;
+}
+.chat-bubble-arrow1 {
+  border-color: #DEF transparent transparent transparent;
+  border-style: solid;
+  border-width: 10px;
+  bottom: -19px;
+  height: 0;
+  right: 30px;
+  position: absolute;
+  width: 0;
+}
+
+img.izquierda { 
+  float: left; 
+  
+}
+
+img.derecha {
+  float: right; 
+
+}
+html{
+  height: 100%;
+}
+
+footer{
+
+}
+
+section.contenido{
+  height: calc(100% - 114px);
+  position: fixed;
+  top: 172px;
+  width: 100%;
+
+}
+
+.cont-mensajes-timeline{
+    overflow: scroll;
+    overflow-x: hidden;
+    height: calc(100% - 176px);
+    position: relative;
+   
+}
+
+.cont-envio{
+  width: 100%;
+  position: fixed;
+  bottom: 70px;
+  background-color: white;
+  height: 48px;
+}
+.cont-envio-nombre{
+  border-bottom-color: white;
+    border: 0px;
+    width: 90%;
+    height: calc(100% - 2px);
+    text-align:center;
+
+}
+.cont-envio-submit{
+ 
+  height: 100%;
+}
+img.izquierda{
+   zoom: 30%;
+}
