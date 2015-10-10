@@ -1,0 +1,39 @@
+
+html {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  position: relative;
+  background : white;
+ 
+   height: 100%;
+}
+
+bodyp{
+  
+  background : white;
+
+   min-height: 100%-60px;
+}
+
+titulo{
+	font-size: 40px;
+	font-weight: 450px;
+}
+
+.titulo{
+	text-align: -webkit-match-parent;
+	font-size: 30px;
+	background-color: white;
+	text-decoration: none;
+}
+
+
+
+ a{padding-right:5px;
+ padding-left:5px;
+ margin-right:auto;
+ margin-left:auto;
+}
